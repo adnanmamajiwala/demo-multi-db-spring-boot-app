@@ -1,0 +1,9 @@
+spring:
+  sql:
+    init:
+      schema-locations: classpath*:schema-derby.sql, classpath*:schema-h2.sql
+      mode: embedded
+  jpa:
+    generate-ddl: true
+
+

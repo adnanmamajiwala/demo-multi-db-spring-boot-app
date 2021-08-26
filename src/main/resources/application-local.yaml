@@ -1,0 +1,9 @@
+data-source:
+  h2:
+    scripts: schema-h2.sql
+  derby:
+    scripts:
+      schema-derby.sql,
+      data-derby.sql
+    hbm2ddl-auto: none
+    dialect: org.hibernate.dialect.DerbyTenSevenDialect
